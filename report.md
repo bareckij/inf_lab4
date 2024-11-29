@@ -11,7 +11,7 @@
    ```
 
    , после чего ввел в терминал команду `aafire` в обоих контейнерах
-   ![alt text](<Screenshot from 2024-11-29 02-31-40.png>)
+   ![alt text](<img/Screenshot from 2024-11-29 02-31-40.png>)
 
 5. Далее создал сеть при помощи команды `docker network create myNetwork`
 
@@ -21,8 +21,8 @@
    docker network connect myNetwork aafire-container2
    ```
 7. При помощи команды `docker network inspect myNetwork` увидел настройки сети
-   ![alt text](<Screenshot from 2024-11-29 02-38-12.png>)
+   ![alt text](<img/Screenshot from 2024-11-29 02-38-12.png>)
 
 8. После чего с помощью команды ping проверил соединение между контейнерами
-   ![alt text](<Screenshot from 2024-11-29 02-39-20.png>)
-   ![alt text](<Screenshot from 2024-11-29 02-39-33.png>)
+   ![alt text](<img/Screenshot from 2024-11-29 02-39-20.png>)
+   ![alt text](<img/Screenshot from 2024-11-29 02-39-33.png>)
