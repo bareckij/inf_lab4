@@ -2,12 +2,11 @@
 
 1. Установил Docker
 2. Cоздал Dockerfile, в котором установил все необходимые пакеты для корректной работы контейнера
-3. После чего запустил команду сборки `docker build -t aafire-container .`
+3. После чего запустил команду сборки образа `docker build -t aafire-container .`
 4. И запустил два контейнера командой
 
    ```
-   docker run -it aafire-container1
-   docker run -it aafire-container2
+   docker run -it aafire-container
    ```
 
    , после чего ввел в терминал команду `aafire` в обоих контейнерах
